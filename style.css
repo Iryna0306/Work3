@@ -22,9 +22,13 @@
     padding: 0;
   }
 
-  input {
-      border: none;
-      
+  input, textarea {
+    border: none;
+    outline: none;
+  }
+
+  textarea {
+      resize: vertical;
   }
   
   p, h1, h2, h3, h4, h5, h6 {
