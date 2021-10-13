@@ -70,21 +70,20 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-us-form-tabs {
-  padding-top: 66px;
+  padding-top: 65px;
 }
 
 .tab-navs .nav-item + .nav-item {
-  margin-left: 32px;
+  margin-left: 30px;
 }
 
 
 .tab-navs .nav-item-link {
-  min-width: 264px;
+  min-width: 265px;
   min-height: 100px;
   border: 1px solid #f5f5f5;
   border-radius: 5px 5px 0 0;
   border-bottom-color: #00ac6a;
-  margin-top: -1;
   color: #b6b6b7;
   font-size: 18px;
   font-weight: 700;
@@ -101,9 +100,9 @@ p, h1, h2, h3, h4, h5, h6 {
   border: 1px solid #00ac6a;
   width: 100%;
   max-width: 1800px;
-  margin-top: -1px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -1px; 
   border-radius: 5px;
 }
 
@@ -134,13 +133,17 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .tabs-with-forms {
-  padding: 132px 100px;
+  padding: 130px 100px;
   flex-grow: 1;
 }
 
 .project-types-part {
   width: 100%;
   max-width: 305px;
+}
+
+.project-type-checkbox {
+  margin-bottom: 20px;
 }
 
 .project-type-checkbox input {
@@ -196,7 +199,6 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 2px;
   background-clip: content-box;
 }
-}
 
 .project-type-checkbox > input:checked + label .project-team-type-radio label {
   color: #fff;
@@ -204,3 +206,47 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .project-type-checkbox > input:checked + label .project-team-type-radio label::before {
   border-color: #fff;
+}
+
+.main-form-part {
+  max-width: 740px;
+  margin-left: 85px;
+  width: 100%;
+}
+
+.input-item {
+  position: relative;
+  max-width: 500px;
+}
+
+.input-item .form-control {
+  width: 100%;
+  border-bottom: 1px solid #d3d3d4;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.input-item label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1;  
+  font-weight: 500;
+  position: absolute;  
+  width: 100%;
+  top: 4px;
+  left: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.input-item .form-control:focus ~ label,
+.input-item .form-control.value-exist ~ label{
+  top: -20px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #727275;
+}
+

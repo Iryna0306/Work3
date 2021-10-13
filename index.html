@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title> 
 </head>
@@ -28,9 +28,84 @@
     <!-- /.contact-us-tab-nav -->
     <div class="container-fluid">
       <div class="contact-us-tabs-content d-flex">
-        <div class="tabs-with-forms">
-          <form id="dedicated-team">
+        <div class="tabs-with-forms ">
+          <form id="dedicated-team" class="d-flex" >
             <div class="project-types-part">
+              <div class="project-type-checkbox">
+                <input type="checkbox" name="frontend" id="frontend">
+                <label for="frontend">
+                  <h6 class="project-type-title">Front end</h6>
+                  <div class="project-team-typr-radio-group d-flex justify-content-between">
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="unity">
+                      <label class="d-flex align-items-center" for="unity" >Unity</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="html5">
+                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="js">
+                      <label class="d-flex align-items-center" for="js" >JS</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                  </div>
+                  <!-- /.project-team-typr-radio-group -->
+                </label>
+              </div>
+              <!-- /.project-type-checkbox -->
+              <div class="project-type-checkbox">
+                <input type="checkbox" name="frontend" id="frontend">
+                <label for="frontend">
+                  <h6 class="project-type-title">Front end</h6>
+                  <div class="project-team-typr-radio-group d-flex justify-content-between">
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="unity">
+                      <label class="d-flex align-items-center" for="unity" >Unity</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="html5">
+                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="js">
+                      <label class="d-flex align-items-center" for="js" >JS</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                  </div>
+                  <!-- /.project-team-typr-radio-group -->
+                </label>
+              </div>
+              <!-- /.project-type-checkbox -->
+              <div class="project-type-checkbox">
+                <input type="checkbox" name="frontend" id="frontend">
+                <label for="frontend">
+                  <h6 class="project-type-title">Front end</h6>
+                  <div class="project-team-typr-radio-group d-flex justify-content-between">
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="unity">
+                      <label class="d-flex align-items-center" for="unity" >Unity</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="html5">
+                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                    <div class="project-team-type-radio">
+                      <input type="radio" name="frontend" id="js">
+                      <label class="d-flex align-items-center" for="js" >JS</label>
+                    </div>
+                    <!-- /.project-team-type-radio -->
+                  </div>
+                  <!-- /.project-team-typr-radio-group -->
+                </label>
+              </div>
+              <!-- /.project-type-checkbox -->
               <div class="project-type-checkbox">
                 <input type="checkbox" name="frontend" id="frontend">
                 <label for="frontend">
@@ -58,7 +133,13 @@
               <!-- /.project-type-checkbox -->
             </div>
             <!-- /.project-types-part -->
-            <div class="main-form-part"></div>
+            <div class="main-form-part">
+              <div class="input-item">
+                <textarea  type="text" id="message" class="form-control" data-label-animated></textarea>
+                <label for="message">What do you to build?<label>                
+              </div>
+              <!-- /.input-team -->
+            </div>
             <!-- /.main-form-part -->
           </form>
         </div>
@@ -116,6 +197,14 @@
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
   <script>
       $( "#tabs").tabs();
+
+      $('[data-label-animated]').on('blur', function(event) {
+        if (event.target.value) {
+          $(event.target).addClass('value-exist');
+        } else {
+          $(event.target).removeClass('value-exist');
+        }
+      } )
   </script>
 </body>
 </html>
