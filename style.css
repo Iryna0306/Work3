@@ -13,6 +13,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
 }
 
 ul {
@@ -35,6 +36,10 @@ input, textarea {
 
 textarea {
     resize: vertical;
+}
+
+img {
+  max-width: 100%;
 }
   
 p, h1, h2, h3, h4, h5, h6 {
@@ -71,6 +76,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .contact-us-form-tabs {
   padding-top: 65px;
+  position:relative;
 }
 
 .tab-navs .nav-item + .nav-item {
@@ -104,6 +110,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   margin-top: -1px; 
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .trusted-us-partners {
@@ -143,7 +150,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .project-type-checkbox {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 305px;
 }
 
 .project-type-checkbox input {
@@ -237,16 +245,31 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   position: absolute;  
   width: 100%;
-  top: 4px;
-  left: 24px;
+  top: 3px;
+  left: 25px;
   transition: all 0.2s ease-in;
 }
 
+
 .input-item .form-control:focus ~ label,
-.input-item .form-control.value-exist ~ label{
+.input-item .form-control.value-exist ~ label {
   top: -20px;
   font-size: 12px;
   font-weight: 300;
   color: #727275;
 }
 
+.main-form-part .input-item + .input-item {
+  margin-top: 100px;
+}
+
+.map-wrapper {
+  margin-top: -25px;
+  position:relative;
+}
+
+.map-content {
+  position:absolute;
+  color: #fff;
+  top: 0;
+}

@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title> 
 </head>
+
 <body>
-    
-  <section class="contact-us-form-tabs">
+  <section class="contact-us-form-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
     <div class="contact-us-tab-nav">
       <div class="container">
-        <ul class="tab-navs d-flex">
-          <li class="nav-item">
-            <a class= "nav-item-link d-flex align-items-center justify-content-center" href="">Fixed price project</a>
+        <ul class="tab-navs d-flex ui-tabs-nav ui-corner-all ui-helper-clearfix ui-widget-header" role="tablist">
+          <li class="nav-item ui-tabs-tab ui-corner-top ui-state-default ui-tab " role="tab" tabindex="-1" aria-controls="fixed-price" aria-lbelledby="ui-id-1" aria-selected="falce" aria-expanded="false" >
+            <a class= "nav-item-link d-flex align-items-center justify-content-center" href="#fixed-price">Fixed price project</a>
           </li>
-          <li class="nav-item">
-            <a class= "nav-item-link d-flex align-items-center justify-content-center active" href="">Dedicated team</a>
+          <li class="nav-item ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="dedicated-team" aria >
+            <a class= "nav-item-link d-flex align-items-center justify-content-center active" href="#dedicated-team">Dedicated team</a>
           </li>
         </ul>
         <!-- /.tab-navs -->
@@ -29,118 +29,126 @@
     <div class="container-fluid">
       <div class="contact-us-tabs-content d-flex">
         <div class="tabs-with-forms ">
+          <form id="fixed-price">Fixed price</form>
           <form id="dedicated-team" class="d-flex" >
-            <div class="project-types-part">
-              <div class="project-type-checkbox">
-                <input type="checkbox" name="frontend" id="frontend">
-                <label for="frontend">
-                  <h6 class="project-type-title">Front end</h6>
-                  <div class="project-team-typr-radio-group d-flex justify-content-between">
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="unity">
-                      <label class="d-flex align-items-center" for="unity" >Unity</label>
+            <div class="d-flex">
+              <div class="project-types-part">
+                <div class="project-type-checkbox">
+                  <input type="checkbox" name="frontend" id="frontend">
+                  <label for="frontend">
+                    <h6 class="project-type-title">Front end</h6>
+                    <div class="project-team-typr-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="unity">
+                        <label class="d-flex align-items-center" for="unity" >Unity</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="html5">
+                        <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="js">
+                        <label class="d-flex align-items-center" for="js" >JS</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
                     </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="html5">
-                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                    <!-- /.project-team-typr-radio-group -->
+                  </label>
+                </div>
+                <!-- /.project-type-checkbox -->
+                <div class="project-type-checkbox">
+                  <input type="checkbox" name="frontend" id="frontend">
+                  <label for="frontend">
+                    <h6 class="project-type-title">Front end</h6>
+                    <div class="project-team-typr-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="unity">
+                        <label class="d-flex align-items-center" for="unity" >Unity</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="html5">
+                        <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="js">
+                        <label class="d-flex align-items-center" for="js" >JS</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
                     </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="js">
-                      <label class="d-flex align-items-center" for="js" >JS</label>
+                    <!-- /.project-team-typr-radio-group -->
+                  </label>
+                </div>
+                <!-- /.project-type-checkbox -->
+                <div class="project-type-checkbox">
+                  <input type="checkbox" name="frontend" id="frontend">
+                  <label for="frontend">
+                    <h6 class="project-type-title">Front end</h6>
+                    <div class="project-team-typr-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="unity">
+                        <label class="d-flex align-items-center" for="unity" >Unity</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="html5">
+                        <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="js">
+                        <label class="d-flex align-items-center" for="js" >JS</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
                     </div>
-                    <!-- /.project-team-type-radio -->
-                  </div>
-                  <!-- /.project-team-typr-radio-group -->
-                </label>
+                    <!-- /.project-team-typr-radio-group -->
+                  </label>
+                </div>
+                <!-- /.project-type-checkbox -->
+                <div class="project-type-checkbox">
+                  <input type="checkbox" name="frontend" id="frontend">
+                  <label for="frontend">
+                    <h6 class="project-type-title">Front end</h6>
+                    <div class="project-team-typr-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="unity">
+                        <label class="d-flex align-items-center" for="unity" >Unity</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="html5">
+                        <label class="d-flex align-items-center" for="html5" >HTML 5</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="js">
+                        <label class="d-flex align-items-center" for="js" >JS</label>
+                      </div>
+                      <!-- /.project-team-type-radio -->
+                    </div>
+                    <!-- /.project-team-typr-radio-group -->
+                  </label>
+                </div>
+                <!-- /.project-type-checkbox -->
               </div>
-              <!-- /.project-type-checkbox -->
-              <div class="project-type-checkbox">
-                <input type="checkbox" name="frontend" id="frontend">
-                <label for="frontend">
-                  <h6 class="project-type-title">Front end</h6>
-                  <div class="project-team-typr-radio-group d-flex justify-content-between">
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="unity">
-                      <label class="d-flex align-items-center" for="unity" >Unity</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="html5">
-                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="js">
-                      <label class="d-flex align-items-center" for="js" >JS</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                  </div>
-                  <!-- /.project-team-typr-radio-group -->
-                </label>
+              <!-- /.project-types-part -->
+              <div class="main-form-part">
+                <div class="input-item">
+                  <textarea  type="text" id="message" class="form-control" data-label-animated></textarea>
+                  <label for="message">What do you to build?<label>                
+                </div>
+                <!-- /.input-team -->
+                <div class="input-item">
+                  <input  type="text" id="user-name" class="form-control" data-label-animated>
+                  <label for="user-name">Can we have your name?<label>                
+                </div>
+                <!-- /.input-team -->
               </div>
-              <!-- /.project-type-checkbox -->
-              <div class="project-type-checkbox">
-                <input type="checkbox" name="frontend" id="frontend">
-                <label for="frontend">
-                  <h6 class="project-type-title">Front end</h6>
-                  <div class="project-team-typr-radio-group d-flex justify-content-between">
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="unity">
-                      <label class="d-flex align-items-center" for="unity" >Unity</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="html5">
-                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="js">
-                      <label class="d-flex align-items-center" for="js" >JS</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                  </div>
-                  <!-- /.project-team-typr-radio-group -->
-                </label>
-              </div>
-              <!-- /.project-type-checkbox -->
-              <div class="project-type-checkbox">
-                <input type="checkbox" name="frontend" id="frontend">
-                <label for="frontend">
-                  <h6 class="project-type-title">Front end</h6>
-                  <div class="project-team-typr-radio-group d-flex justify-content-between">
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="unity">
-                      <label class="d-flex align-items-center" for="unity" >Unity</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="html5">
-                      <label class="d-flex align-items-center" for="html5" >HTML 5</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                    <div class="project-team-type-radio">
-                      <input type="radio" name="frontend" id="js">
-                      <label class="d-flex align-items-center" for="js" >JS</label>
-                    </div>
-                    <!-- /.project-team-type-radio -->
-                  </div>
-                  <!-- /.project-team-typr-radio-group -->
-                </label>
-              </div>
-              <!-- /.project-type-checkbox -->
+              <!-- /.main-form-part -->
             </div>
-            <!-- /.project-types-part -->
-            <div class="main-form-part">
-              <div class="input-item">
-                <textarea  type="text" id="message" class="form-control" data-label-animated></textarea>
-                <label for="message">What do you to build?<label>                
-              </div>
-              <!-- /.input-team -->
-            </div>
-            <!-- /.main-form-part -->
           </form>
         </div>
         <!-- /.tabs-with-forms -->
@@ -196,7 +204,7 @@
   crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
   <script>
-      $( "#tabs").tabs();
+      $( ".contact-us-form-tabs" ).tabs();
 
       $('[data-label-animated]').on('blur', function(event) {
         if (event.target.value) {
