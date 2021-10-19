@@ -126,7 +126,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .subtitle {
   font-size: 30px;
   font-weight: 400;
-
+  line-height: 1.6;
+  max-width: 800px;
 }
 
 .title,
