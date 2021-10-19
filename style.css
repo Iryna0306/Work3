@@ -64,11 +64,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header {
   margin: auto;
+
 }
 
 .header-container {
-
-  padding: 40px 0;
+  padding: 50px 0;
   max-width: 1800px;
   margin: auto;
   width: 100%;
@@ -76,18 +76,33 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header-nav {
   flex-grow: 1;
+  box-sizing: border-box;
+
 }
 
-.header-nav a:hover {
+.header-nav .block {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 12px 18px;
+}
+
+.header-nav .block:hover {
+  text-align: center;
+  border: 1px solid transparent;
   color: #fff;
   background-color: #00ab69;
-  border-radius: 10px;
-  width: 88px;
-  height: 34px;
+  border-radius: 20px;
+  padding: 12px 18px;
 }
 
-.header-nav a + a {
-  margin-left: 64px;
+.block {
+  display: inline-block;
+}
+
+.header-nav .block + .block {
+  margin-left: 12px;
 }
 
 .menu-header-nav {
