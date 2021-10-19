@@ -68,7 +68,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header-container {
-  padding: 50px 0;
+  padding: 35px 0;
   max-width: 1800px;
   margin: auto;
   width: 100%;
@@ -76,8 +76,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header-nav {
   flex-grow: 1;
-  box-sizing: border-box;
-
 }
 
 .header-nav .block {
@@ -112,6 +110,29 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed';
   text-transform: uppercase;
   margin-left: auto;
+}
+
+.slogan {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.title {
+  font-size: 112px;
+  font-weight: 700;
+  margin: 70px 0;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.title,
+.subtitle {
+  color: #0a0b0f;
+  margin-left: 98px; 
 }
   
 .container {
