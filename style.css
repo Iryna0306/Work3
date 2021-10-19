@@ -61,6 +61,43 @@ p, h1, h2, h3, h4, h5, h6 {
 .justify-content-between {
   justify-content: space-between !important;
 }
+
+.header {
+  margin: auto;
+}
+
+.header-container {
+
+  padding: 40px 0;
+  max-width: 1800px;
+  margin: auto;
+  width: 100%;
+}
+
+.header-nav {
+  flex-grow: 1;
+}
+
+.header-nav a:hover {
+  color: #fff;
+  background-color: #00ab69;
+  border-radius: 10px;
+  width: 88px;
+  height: 34px;
+}
+
+.header-nav a + a {
+  margin-left: 64px;
+}
+
+.menu-header-nav {
+  font-size: 14px;
+  color: #0a0b0f;
+  font-weight: 700;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  margin-left: auto;
+}
   
 .container {
   max-width: 1630px;
