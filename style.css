@@ -138,6 +138,7 @@ p, h1, h2, h3, h4, h5, h6 {
   
 .container {
   max-width: 1630px;
+
   padding: 0 15px;
   margin: auto;
 }
@@ -169,7 +170,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.tab-navs .nav-item-link.active {
+.tab-navs .ui-tabs-active .nav-item-link {
   border-color:#00ac6a;
   border-bottom-color: #fff;
   color: #0a0b0f;
@@ -180,11 +181,13 @@ p, h1, h2, h3, h4, h5, h6 {
   border: 1px solid #00ac6a;
   width: 100%;
   max-width: 1800px;
+  min-height: 780px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -1px; 
   border-radius: 5px;
   background-color: #fff;
+  z-index: 1;
 }
 
 .trusted-us-partners {
@@ -338,8 +341,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .map-wrapper {
+  max-width: 1910px;
+  margin: auto;
   margin-top: -25px;
   position:relative;
+  z-index: -1;
 }
 
 .map-content {
