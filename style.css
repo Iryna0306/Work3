@@ -396,4 +396,17 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 2.25;
   font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.list-social-network {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 240px;
+}
+
+i {
+  font-size: 28px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
