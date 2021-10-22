@@ -248,8 +248,8 @@ ul > .list, .work, .company {
 }
 
 .project-type-checkbox {
-  margin-top: 20px;
   width: 305px;
+  margin-bottom: 20px;
 }
 
 .project-type-checkbox input {
@@ -361,6 +361,40 @@ ul > .list, .work, .company {
   margin-top: 100px;
 }
 
+.container-information {
+  margin-top: 30px;
+}
+
+.fa-stopwatch {
+  color: #b2b2b2;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.information-profile {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #b2b2b2;
+  font-weight: 400;
+  max-width: 450px;
+}
+
+.decoration-text {
+  color: #c4ecdc;
+  text-decoration: underline;
+}
+
+.information-button {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 26px;
+  color: #fff;
+  background-color: #00ac6a;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
 .map-wrapper {
   max-width: 1910px;
   margin: auto;
@@ -455,5 +489,3 @@ ul > .list, .work, .company {
   margin-bottom: 20px;
 }
 
-
-/* align-items: flex-start;  */
