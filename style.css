@@ -431,8 +431,6 @@ ul > .list, .work, .company {
   max-width: 1594px;
   margin: 100px auto;
   justify-content: space-between;
-  align-items: center;
-
 }
 
 .articles {
