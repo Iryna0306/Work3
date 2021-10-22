@@ -45,6 +45,27 @@ img {
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+i {
+  font-size: 28px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+ul > h5 {
+  font-size: 16px;
+  line-height: 2.25;
+  color: #0a0b0f;
+  font-weight: 700;
+  margin-bottom: 40px; 
+}
+
+ul > .list, .work, .company {
+  font-size: 16px;
+  line-height: 1.78;
+  font-weight: 400;
+  color: #0a0b0f;
+}
   
 .d-flex {
   display: flex !important;
@@ -403,10 +424,38 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 240px;
+ 
 }
 
-i {
-  font-size: 28px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+.footer-list {
+  max-width: 1594px;
+  margin: 100px auto;
+  justify-content: space-between;
+  align-items: center;
+
 }
+
+.articles {
+  font-size: 14px;
+  line-height: 2.14;
+  text-decoration: underline;
+  color: #0a0b0f;
+  font-weight: 400;
+}
+
+
+.desc, .date {
+  font-size: 12px;
+  line-height: 2.5;
+  color: #0a0b0f;
+  font-weight: 400;
+  display: block;
+  text-align: right;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+
+/* align-items: flex-start;  */
