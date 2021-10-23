@@ -48,8 +48,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 i {
   font-size: 28px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin: 15px;
+;
 }
 
 ul > h5 {
@@ -314,10 +314,37 @@ ul > .list, .work, .company {
   border-color: #fff;
 }
 
+.months-holder {
+  margin-bottom: 100px;
+}
+
 .main-form-part {
   max-width: 740px;
   margin-left: 85px;
   width: 100%;
+}
+
+.months-holder {
+  max-width: 500px;
+}
+
+.months-holder-section input {
+  display: none;
+}
+
+.months-holder-section > label {
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+}  
+
+/* .months-holder-section > label:nth-child(-n + 3) {  не работает nth-chold 
+  margin-right: 14px;
+} */
+
+.months-holder-section > label:hover {
+  border-color: #00ac6a;
 }
 
 .input-item {
@@ -474,7 +501,6 @@ ul > .list, .work, .company {
   color: #0a0b0f;
   font-weight: 400;
 }
-
 
 .desc, .date {
   font-size: 12px;
