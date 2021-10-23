@@ -307,10 +307,6 @@ ul > .list, .work, .company {
   border-color: #fff;
 }
 
-.months-holder {
-  margin-bottom: 100px;
-}
-
 .main-form-part {
   max-width: 740px;
   margin-left: 85px;
@@ -318,6 +314,7 @@ ul > .list, .work, .company {
 }
 
 .months-holder {
+  margin-bottom: 100px;
   max-width: 500px;
 }
 
@@ -337,6 +334,7 @@ ul > .list, .work, .company {
 } */
 
 .months-holder-section > label:hover {
+  color: #00ac6a;
   border-color: #00ac6a;
 }
 
