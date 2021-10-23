@@ -52,14 +52,6 @@ i {
 ;
 }
 
-ul > h5 {
-  font-size: 16px;
-  line-height: 2.25;
-  color: #0a0b0f;
-  font-weight: 700;
-  margin-bottom: 40px; 
-}
-
 ul > .list, .work, .company {
   font-size: 16px;
   line-height: 1.78;
@@ -493,6 +485,14 @@ ul > .list, .work, .company {
   max-width: 1594px;
   margin: 100px auto;
   justify-content: space-between;
+}
+
+.footer-list-block > h5 {
+  font-size: 16px;
+  line-height: 2.25;
+  color: #0a0b0f;
+  font-weight: 700;
+  margin-bottom: 40px; 
 }
 
 .articles {
