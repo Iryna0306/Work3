@@ -118,6 +118,7 @@ ul > .list, .work, .company {
 
 .block {
   display: inline-block;
+  cursor: pointer;
 }
 
 .header-nav .block + .block {
